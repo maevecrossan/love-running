@@ -8,12 +8,12 @@
     box-sizing: border-box;
 }
 
-/* General Styles */
+/* General styles */
 body {
-    min-height:100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /*Generic project styles*/
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
@@ -37,7 +37,7 @@ header a {
 }
 
 h1 {
-    font-family:'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -54,10 +54,10 @@ h1 {
 }
 
 .active {
-    border-bottom:1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar with drop down toggle */
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -96,11 +96,12 @@ footer {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
     /* Header */
     nav {
         display: block;
         position: relative;
+        box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
     }
@@ -118,21 +119,21 @@ footer {
     }
 
     #logo {
-        font-size:280%;
+        font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
 
     /* Main content */
     main {
-        /* Push main content down to accomodate larger heading */
+        /* Push main content down to accommodate larger heading */
         margin-top: 79px;
     }
 }
 
-/* LArge devices (laptops and desktops. 992px and up) */
-@media screen and (min-width:992px) {
-    #menu a:hover {
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
 }
