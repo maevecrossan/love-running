@@ -66,7 +66,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top:100%
+    top: 100%;
 }
 
 /* Nav toggle */
@@ -115,5 +115,17 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size:280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accomodate larger heading */
+        margin-top: 79px;
     }
 }
