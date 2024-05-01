@@ -195,6 +195,23 @@ hr {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
