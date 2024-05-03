@@ -90,6 +90,7 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    display: column;
     margin-top: 47px;
 }
 
@@ -209,6 +210,8 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* Sign Up Page */
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
